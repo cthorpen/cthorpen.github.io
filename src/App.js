@@ -2,6 +2,7 @@ import './App.css';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
 import myPhoto from './MyPhoto.png';
+import logo from './logo.svg';
 
 const App = () => {
   return (
@@ -37,9 +38,88 @@ const App = () => {
             <AiFillGithub/>
           </div>
           <div className='relative mx-auto rounded-full w-80 h-80 mt-20'>
-            <img className='rounded-full' src={myPhoto} />
+            <img className='rounded-full' src={myPhoto} alt='placeholder'/>
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I Offer, or something similar...</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Add some more 
+              <span className='text-teal-600'> information </span> 
+              here about myself...
+            </p>
+            <p className='text-md leading-8 text-gray-800'>
+              Add some more stuff here or something...
+            </p>
+          </div>
+          <div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <img src={logo} width={100} height={100} alt='placeholder'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>React Apps</h3>
+              <p className='py-2'>
+                i sometimes create React applications. Change this to something more meaningful.
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools i use</h4>
+              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>MongoDB</p>
+              <p className='text-gray-800 py-1'>Node</p>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <img src={logo} width={100} height={100}alt='placeholder'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Something else here...</h3>
+              <p className='py-2'>
+                Fill this with another thing i do...
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools i use</h4>
+              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>MongoDB</p>
+              <p className='text-gray-800 py-1'>Node</p>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <img src={logo} width={100} height={100} alt='placeholder' />
+              <h3 className='text-lg font-medium pt-8 pb-2'>something else here again</h3>
+              <p className='py-2'>
+                fill this out again 
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools i use</h4>
+              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>MongoDB</p>
+              <p className='text-gray-800 py-1'>Node</p>
+            </div>
+
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Add some more 
+              <span className='text-teal-600'> information </span> 
+              here about myself...
+            </p>
+            <p className='text-md leading-8 text-gray-800'>
+              Add some more stuff here or something...
+            </p>
+          </div>
+          <div>
+            <div>
+              <img src={logo} alt='placeholder'/>
+            </div>
+            <div>
+              <img src={logo} alt='placeholder'/>
+            </div>
+            <div>
+              <img src={logo} alt='placeholder'/>
+            </div>
+          </div>
+        </section>
+
       </main>
     </div>
   );
