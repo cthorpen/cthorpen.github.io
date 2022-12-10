@@ -7,6 +7,14 @@ import { useState } from 'react';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
+
+  const socials = {
+    twitter: 'https://www.twitter.com/colettrain',
+    linkedin: 'https://www.linkedin.com/in/colethorpen/',
+    instagram: 'https://www.instagram.com/cole.thorpen/',
+    github: 'https://github.com/cthorpen'
+  }
+
   return (
     <div className={darkMode ? 'dark' : ''}>
       <header>
@@ -33,12 +41,22 @@ const App = () => {
               I am a freelance developer looking to break into the industry. Here is my showcase of work. Add more here ...
             </p>
           </div>
+
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillTwitterCircle/>
-            <AiFillLinkedin/>
-            <AiFillInstagram/>
-            <AiFillGithub/>
+            <a href={socials.twitter} target='_blank' rel="noreferrer">
+              <AiFillTwitterCircle className='cursor-pointer' />
+            </a>
+            <a href={socials.linkedin} target='_blank' rel="noreferrer">
+              <AiFillLinkedin className='cursor-pointer' />
+            </a>
+            <a href={socials.instagram} target='_blank' rel="noreferrer">
+              <AiFillInstagram className='cursor-pointer' />
+            </a>
+            <a href={socials.github} target='_blank' rel="noreferrer">
+              <AiFillGithub className='cursor-pointer'/>
+            </a>
           </div>
+
           <div className='relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <img className='rounded-full' src={myPhoto} alt='placeholder'/>
           </div>
