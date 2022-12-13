@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        allianty: "allianty",
+        texastangbold: "texastangbold",
       }
     },
   },
