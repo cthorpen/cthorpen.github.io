@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb55c06.css",
-    "main.js": "/static/js/main.9ed35f35.js",
+    "main.css": "/static/css/main.fc80e0e7.css",
+    "main.js": "/static/js/main.12fa69ee.js",
     "static/js/787.36a57c5e.chunk.js": "/static/js/787.36a57c5e.chunk.js",
     "static/media/MyPhoto.png": "/static/media/MyPhoto.de71efb8d3d02f5ede37.png",
-    "static/media/Allianty.otf": "/static/media/Allianty.9789950092135c611ced.otf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/XCode.png": "/static/media/XCode.cbf569c2ce6d04d697a3.png",
+    "static/media/React.png": "/static/media/React.c1ffa1acab795cef413f.png",
+    "static/media/TexasTangBold.otf": "/static/media/TexasTangBold.4ea9cd02517b642a9944.otf",
+    "static/media/MERN.png": "/static/media/MERN.797f154ce5fcf7edb6fb.png",
+    "static/media/Python.png": "/static/media/Python.04ddea1b43164f05b756.png",
     "index.html": "/index.html",
-    "main.eeb55c06.css.map": "/static/css/main.eeb55c06.css.map",
-    "main.9ed35f35.js.map": "/static/js/main.9ed35f35.js.map",
+    "main.fc80e0e7.css.map": "/static/css/main.fc80e0e7.css.map",
+    "main.12fa69ee.js.map": "/static/js/main.12fa69ee.js.map",
     "787.36a57c5e.chunk.js.map": "/static/js/787.36a57c5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb55c06.css",
-    "static/js/main.9ed35f35.js"
+    "static/css/main.fc80e0e7.css",
+    "static/js/main.12fa69ee.js"
   ]
 }
