@@ -139,12 +139,7 @@ const App = () => {
           <div>
             <h3 className='text-3xl py-1 font-texastangbold'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              Add some more 
-              <span className='text-teal-600'> information </span> 
-              here about myself...
-            </p>
-            <p className='text-md leading-8 text-gray-800'>
-              Add some more stuff here or something...
+              Use github api to display public repos here
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
