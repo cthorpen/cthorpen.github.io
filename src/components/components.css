@@ -1,0 +1,4 @@
+/* Navbar */
+.sticky-nav {
+    @apply fixed top-0 left-0 w-full shadow-md z-20;
+}

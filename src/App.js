@@ -2,6 +2,7 @@ import './App.css';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
 
+
 import myPhoto from './assets/MyPhoto.png';
 import react from './assets/React.png';
 import xcode from './assets/XCode.png';
@@ -19,6 +20,15 @@ const App = () => {
     linkedin: 'https://www.linkedin.com/in/colethorpen/',
     instagram: 'https://www.instagram.com/cole.thorpen/',
     github: 'https://github.com/cthorpen'
+  }
+
+  const repos = {
+    myRead: 'https://github.com/Angela-Mari/MyRead',
+    myReadExtension: 'https://github.com/cthorpen/MyRead-Chrome-Extension',
+    prescriptionRatings: 'https://github.com/cthorpen/CPSC322-Final-Project',
+    trekConnect: 'https://github.com/cthorpen/TrekConnect',
+    // mapCams: '',
+    // kitchenWizard: ''
   }
 
   return (
@@ -142,16 +152,37 @@ const App = () => {
               Use github api to display public repos here
             </p>
           </div>
+
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={react} alt='placeholder'/>
+
+            <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
+              <a href={repos.myRead} target='_blank' rel="noreferrer">
+                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <p className='py-1 text-gray-800 font-bold'>MyRead Personal Reading List</p>
+              </a>
             </div>
-            <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={react} alt='placeholder'/>
+            
+            <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
+              <a href={repos.myReadExtension} target='_blank' rel="noreferrer">
+                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <p className='py-1 text-gray-800 font-bold'>MyRead Chrome Extension</p>
+              </a>
             </div>
-            <div className='basis-1/3 flex-1'>
-              <img className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={react} alt='placeholder'/>
+
+            <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
+              <a href={repos.prescriptionRatings} target='_blank' rel="noreferrer">
+                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <p className='py-1 text-gray-800 font-bold'>Drug Prescription Ratings & Effectiveness</p>
+              </a>
             </div>
+
+            <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
+              <a href={repos.trekConnect} target='_blank' rel="noreferrer">
+                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <p className='py-1 text-gray-800 font-bold'>TrekConnect</p>
+              </a>
+            </div>
+
           </div>
         </section>
       </main>
