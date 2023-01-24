@@ -149,7 +149,8 @@ const App = () => {
           <div>
             <h3 className='text-3xl py-1 font-texastangbold'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              Use github api to display public repos here
+              Showcase of my most notable and/or favorite projects I have worked on. This section is a work in progress,
+              as I am continually adding new projects and refining others.
             </p>
           </div>
 
