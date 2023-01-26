@@ -2,6 +2,7 @@ import './App.css';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
 
+import oldResume from './assets/COLE_THORPEN_RESUME_2022.pdf';
 
 import myPhoto from './assets/MyPhoto.png';
 import react from './assets/React.png';
@@ -51,7 +52,7 @@ const App = () => {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
               </li>
               <li>
-                <a className='bg-gradient-to-r from-blue-400 to-purple-600 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
+                <a className='bg-gradient-to-r from-blue-400 to-purple-600 text-white px-4 py-2 rounded-md ml-8' href={oldResume}>Resume</a>
               </li>
             </ul>
           </nav>
