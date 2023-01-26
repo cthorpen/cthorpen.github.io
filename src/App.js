@@ -9,6 +9,10 @@ import xcode from './assets/XCode.png';
 import androidstudio from './assets/AndroidStudio.png';
 import mernstack from './assets/MERN.png';
 import python from './assets/Python.png';
+import myReadSS from './assets/myReadSS.png';
+import myReadExt from './assets/myReadExt.png';
+import drugClass from './assets/drugClass.png';
+import trekPhoto from './assets/trekPhoto.png';
 
 import { useState } from 'react';
 
@@ -150,7 +154,7 @@ const App = () => {
             <h3 className='text-3xl py-1 font-texastangbold'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Showcase of my most notable and/or favorite projects I have worked on. This section is a work in progress,
-              as I am continually adding new projects and refining others.
+              as I am continually adding new projects and refining others. All items are links that direct to respective Github page.
             </p>
           </div>
 
@@ -158,28 +162,28 @@ const App = () => {
 
             <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
               <a href={repos.myRead} target='_blank' rel="noreferrer">
-                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <img className='rounded-lg object-cover mx-auto' width={'100%'} height={'100%'} layout='responsive' src={myReadSS} alt='placeholder'/>
                 <p className='py-1 text-gray-800 font-bold'>MyRead Personal Reading List</p>
               </a>
             </div>
             
             <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
               <a href={repos.myReadExtension} target='_blank' rel="noreferrer">
-                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <img className='rounded-lg object-cover mx-auto' width={'100%'} height={'100%'} layout='responsive' src={myReadExt} alt='placeholder'/>
                 <p className='py-1 text-gray-800 font-bold'>MyRead Chrome Extension</p>
               </a>
             </div>
 
             <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
               <a href={repos.prescriptionRatings} target='_blank' rel="noreferrer">
-                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <img className='rounded-lg object-cover mx-auto' width={'100%'} height={'100%'} layout='responsive' src={drugClass} alt='placeholder'/>
                 <p className='py-1 text-gray-800 font-bold'>Drug Prescription Ratings & Effectiveness</p>
               </a>
             </div>
 
             <div className='basis-1/3 text-center shadow-lg p-10 rounded-xl my-10 flex-1 bg-blue-50 dark:bg-gray-100 '>
               <a href={repos.trekConnect} target='_blank' rel="noreferrer">
-                <img className='rounded-lg object-cover mx-auto' width={'50%'} height={'50%'} layout='responsive' src={react} alt='placeholder'/>
+                <img className='rounded-lg object-cover mx-auto' width={'100%'} height={'100%'} layout='responsive' src={trekPhoto} alt='placeholder'/>
                 <p className='py-1 text-gray-800 font-bold'>TrekConnect</p>
               </a>
             </div>
