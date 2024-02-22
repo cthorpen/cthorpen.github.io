@@ -62,7 +62,7 @@ const App = () => {
             <h2 className='text-5xl py-2 text-purple-600 font-texastangbold md:text-6xl'>Cole Thorpen</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
-              I am a freelance developer looking to break into the industry. Here is my showcase of work.
+              I am a freelance developer looking to break into the industry. Here is a showcase of my work.
             </p>
           </div>
 
